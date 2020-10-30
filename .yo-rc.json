@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.zbw.server",
+      "nativeLanguage": "zh-cn"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "monolith",
+    "baseName": "exam1802753130",
+    "packageName": "com.zbw.server",
+    "packageFolder": "com/zbw/server",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YmZlM2UwOGM3NWUyMmJkYzkzOTM4Y2Y4N2ExZDRkMTBhOTkyNjgxOTg4M2RjYzNjYmJjYzEwZjMxNDVlZGMzODkzNjBhZTU5MmUxOWVkMzYxZmZjNjlmNzdhN2Y5MGJkNGQ0YmMwODFlMWQ3NjMwZDNkZTU0NGIzZWU4ZGE2MjU=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1604030603509,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "zh-cn",
+    "languages": ["zh-cn", "en"],
+    "blueprints": []
+  }
+}
