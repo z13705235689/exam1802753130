@@ -1,8 +1,7 @@
 package com.zbw.server.domain;
 
-import com.zbw.server.config.Constants;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.zbw.server.config.Constants;
 import org.apache.commons.lang3.StringUtils;
 import org.hibernate.annotations.BatchSize;
 import org.hibernate.annotations.Cache;

@@ -1,6 +1,7 @@
 package com.zbw.server.web.rest.vm;
 
 import com.zbw.server.service.dto.UserDTO;
+
 import javax.validation.constraints.Size;
 
 /**

@@ -1,0 +1,59 @@
+/**账户信息*/
+entity UserAccount{
+    userName String,
+    password String
+}
+
+/*课程信息*/
+entity CourseInfo{
+	/*课程名称*/
+    courseName String
+    /*课时数*/
+    courseNum Long
+    /*所属专业*/
+    courseMajor String
+    /*所属院校*/
+    courseInstitutions String
+    /*学科分类*/
+    courseType String
+}
+
+/**课程大纲*/
+entity CourseOutline{
+	/**章*/
+    chapter Long,
+    /**节*/
+    section Long,
+}
+
+/**课程资源*/
+entity CourseResources{
+	resourcesType String
+    resourcesName String
+    resourcesUrl String
+    resourcesTime ZonedDateTime
+}
+
+/**我加入的课程*/
+entity CourseMy{
+   
+}
+
+
+/**外键*/
+relationship ManyToOne{
+	/*我加入可以加入n个课程*/
+   CourseMy{account} to UserAccount
+   /*我加入的课程都对应课程信息里的课程*/
+   CourseMy{course} to CourseInfo
+   
+   /*一个课程有多个大纲*/
+   CourseOutline{outline} to CourseInfo
+   /*一个课程大纲有多个资源*/
+   CourseResources{resources} to CourseOutline
+}
+
+/**对象以分页形式获取*/
+paginate all with pagination
+/**封装*/
+service all with serviceImpl

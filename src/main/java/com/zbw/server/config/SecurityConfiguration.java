@@ -2,7 +2,6 @@ package com.zbw.server.config;
 
 import com.zbw.server.security.*;
 import com.zbw.server.security.jwt.*;
-
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
 import org.springframework.http.HttpMethod;

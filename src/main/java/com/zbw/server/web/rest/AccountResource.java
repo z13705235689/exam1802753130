@@ -10,7 +10,6 @@ import com.zbw.server.service.dto.UserDTO;
 import com.zbw.server.web.rest.errors.*;
 import com.zbw.server.web.rest.vm.KeyAndPasswordVM;
 import com.zbw.server.web.rest.vm.ManagedUserVM;
-
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,7 +18,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
-import java.util.*;
+import java.util.Optional;
 
 /**
  * REST controller for managing the current user's account.

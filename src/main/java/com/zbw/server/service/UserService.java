@@ -8,9 +8,7 @@ import com.zbw.server.repository.UserRepository;
 import com.zbw.server.security.AuthoritiesConstants;
 import com.zbw.server.security.SecurityUtils;
 import com.zbw.server.service.dto.UserDTO;
-
 import io.github.jhipster.security.RandomUtil;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cache.CacheManager;

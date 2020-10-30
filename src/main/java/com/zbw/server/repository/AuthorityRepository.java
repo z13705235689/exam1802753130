@@ -1,7 +1,6 @@
 package com.zbw.server.repository;
 
 import com.zbw.server.domain.Authority;
-
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
